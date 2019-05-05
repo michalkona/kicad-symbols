@@ -750,6 +750,18 @@ K Driver, Dual MOSFET
 F https://www.onsemi.com/pub/Collateral/MC34152-D.PDF
 $ENDCMP
 #
+$CMP MCP1401
+D 500mA High speed power MOSFET driver with inverting output, SOT-23
+K Driver MOSFET
+F http://ww1.microchip.com/downloads/en/devicedoc/20002052d.pdf
+$ENDCMP
+#
+$CMP MCP1402
+D 500mA High speed power MOSFET driver with non-inverting output, SOT-23
+K Driver MOSFET
+F http://ww1.microchip.com/downloads/en/devicedoc/20002052d.pdf
+$ENDCMP
+#
 $CMP MCP1415
 D 1.5A High speed power MOSFET driver with inverting output, SOT-23-5
 K mosfet gate driver
