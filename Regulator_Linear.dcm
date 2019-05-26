@@ -5346,6 +5346,20 @@ K Adjustable Voltage Regulator 1.5A Negative
 F http://www.irf.com/product-info/datasheets/hirel/om1323.pdf
 $ENDCMP
 #
+$CMP RT9068-25GSP
+D 50mA, Low-Dropout Voltage Regulator, 4.5-60V Input, Fixed Output 2.5V, SOP-8
+K ldo regulator voltage linear
+F https://www.richtek.com/assets/product_file/RT9068/DS9068-06.pdf
+$ENDCMP
+#
+$CMP RT9068-33GSP
+D 50mA, Low-Dropout Voltage Regulator, 4.5-60V Input, Fixed Output 3.3V, SOP-8
+$ENDCMP
+#
+$CMP RT9068-50GSP
+D 50mA, Low-Dropout Voltage Regulator, 4.5-60V Input, Fixed Output 5.0V, SOP-8
+$ENDCMP
+#
 $CMP SPX2920M3-3.3_SOT223
 D 400mA Low drop-out regulator, Fixed Output 3.3V, SOT-223
 K REGULATOR LDO 3.3V
